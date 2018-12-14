@@ -1,0 +1,14 @@
+logging:
+  config: /config/logback-spring.xml
+  level:
+    org.springframework.security: INFO
+server:
+  port: 8090
+endpoints:
+  metrics:
+    id: metrics
+    sensitive: false
+    enabled: true
+security:
+  basic:
+enabled: false
