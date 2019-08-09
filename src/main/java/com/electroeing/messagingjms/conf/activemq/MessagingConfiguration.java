@@ -1,4 +1,4 @@
-package com.electroeing.messagingjms.conf;
+package com.electroeing.messagingjms.conf.activemq;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

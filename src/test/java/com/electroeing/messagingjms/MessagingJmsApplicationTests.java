@@ -1,4 +1,4 @@
-package com.electroeing.MessagingJms;
+package com.electroeing.messagingjms;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

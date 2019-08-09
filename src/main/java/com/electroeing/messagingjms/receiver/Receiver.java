@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Receiver {
-    private final static Logger logger = LoggerFactory.getLogger(Receiver.class);
+    private static final Logger logger = LoggerFactory.getLogger(Receiver.class);
 
     @JmsListener(destination = "test.queue")
     public void receiveMessage(String message) {
